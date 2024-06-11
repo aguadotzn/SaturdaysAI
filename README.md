@@ -29,6 +29,7 @@ SaturdaysAI project
 └───📁 code // Notebook with all the code
 │   │   SaturdaysAI_Asturias_Group2_Objective1.ipynb
 │   │   SaturdaysAI_Asturias_Group2_Objective2.ipynb
+│   │   SaturdaysAI-Asturias-Group2-FullCode.ipynb
 └───📁 data // Datasets
 │   │   OpenBTAI_METS_ClinicalData_Nov2023
 │   │   OpenBTAI_MORPHOLOGICAL_MEASUREMENTS
@@ -41,7 +42,7 @@ README
 ```
 
 ### Code
-If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is actually separated into two different files: objective 1 and objective 2. Both are `.ipynb` files. We recommend you to open it via colab or locally (with Anaconda).
+If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is actually separated into two different files: objective 1 and objective 2. Both are `.ipynb` files. We also upload the full code. We recommend you to open it via colab or locally (with Anaconda).
 
 
 ## Team
