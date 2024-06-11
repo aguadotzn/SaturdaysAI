@@ -33,7 +33,6 @@ SaturdaysAI project
 │   │   OpenBTAI_MORPHOLOGICAL_MEASUREMENTS
 │   │   OpenBTAI_RADIOMICS
 └───📁 img // Only for README purposes
-│   │   OpenBTAI_METS_ClinicalData_Nov2023
 └───📁 presentation // PPT
 │   │   SaturdaysAI-Asturias-Group2-Presentation.pdf
 LICENSE
@@ -70,9 +69,7 @@ We divide our work into:
 - Predicting **Survival time** - An estimate of the number of days (and possible cause) a patient has left.
 - Predicting **patient relapse** - Obtain predictive variables to estimate the recurrence.
 
-<p align="center">
-  <img width="290" height="180" src="img/tumor.gif">
-</p>
+
 
 
 | Objectives | Description                                                 |
@@ -81,7 +78,9 @@ We divide our work into:
 | 2 a        | Predict lesion relapse (for all patients)                   |
 | 2 b        | Predict lesion relapse (only patients who had radiosurgery) |
 
-
+<p align="center">
+  <img width="290" height="180" src="img/tumor.gif">
+</p>
 
 
 ## Data
@@ -101,7 +100,7 @@ You can find the main dataset here: [MOLAB Brain Metastasis Dataset](https://mol
 We have invested most of our time in this phase. A whole lot of plots, graphs and code were needed to understand the relationship between our variables and know what we could predict with the most certainty.
 
 <p align="center">
-  <img width="420" height="280" src="img/data-analysis.png">
+  <img width="520" height="380" src="img/data-analysis.png">
 </p>
 
 
