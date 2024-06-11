@@ -40,7 +40,7 @@ LICENSE
 README
 ```
 
-### Code
+### Code
 If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is actually separated into two files. Both are `.ipynb` files. We recommend you to open it via colab or locally (with Anaconda).
 
 
