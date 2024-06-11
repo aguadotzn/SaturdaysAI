@@ -10,6 +10,7 @@
 
 
 # Content
+- [Project structure](https://github.com/aguadotzn/SaturdaysAI#Project)
 - [Team](https://github.com/aguadotzn/SaturdaysAI#Team)
 - [Introduction](https://github.com/aguadotzn/SaturdaysAI#Introduction)
 - [Objectives](https://github.com/aguadotzn/SaturdaysAI#Objectives)
@@ -17,6 +18,30 @@
 - [Technologies/Tools](https://github.com/aguadotzn/SaturdaysAI#Technologies)
 - [Acknowledgements](https://github.com/aguadotzn/SaturdaysAI#Acknowledgements)
 
+
+## Project
+```
+SaturdaysAI project
+│      
+└───📁 blog // Posts (in English and Spanish)
+│   │   SaturdaysAI-Asturias-Group2-BlogEN.pdf
+│   │   SaturdaysAI-Asturias-Group2-BlogES.pdf
+└───📁 code // Notebook with all the code
+│   │   SaturdaysAI_Asturias_Group2_Code.ipynb
+└───📁 data // Datasets
+│   │   OpenBTAI_METS_ClinicalData_Nov2023
+│   │   OpenBTAI_MORPHOLOGICAL_MEASUREMENTS
+│   │   OpenBTAI_RADIOMICS
+└───📁 img // Only for README purposes
+│   │   OpenBTAI_METS_ClinicalData_Nov2023
+└───📁 presentation // PPT
+│   │   SaturdaysAI-Asturias-Group2-Presentation.pdf
+LICENSE
+README
+```
+
+### Code
+If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is a `.ipynb` file. We recommend you to open it via colab or locally (with Anaconda).
 
 
 ## Team
@@ -39,11 +64,24 @@ Brain metastases are cancer cells that spread to the brain from tumors in other 
 
 
 ## Objectives
-One of our goals was to accurately predict how much time is left to savor life. The second goal is just as important, determining when a person is likely to relapse. We’ll run you through our dataset, how we explored the data, decided on an appropriate Machine Learning (ML) approach and our results. We hope this summary helps anyone interested in this dataset and we look forward to your feedback and comments.
+One of our goals was to accurately predict how much time is left to savor life. The second goal is just as important, determining when a person is likely to relapse. We’ll run you through our dataset, how we explored the data, decided on an appropriate Machine Learning (ML) approach and our results. 
+
+We divide our work into:
+- Predicting **Survival time** - An estimate of the number of days (and possible cause) a patient has left.
+- Predicting **patient relapse** - Obtain predictive variables to estimate the recurrence.
 
 <p align="center">
-  <img width="270" height="180" src="img/tumor.gif">
+  <img width="290" height="180" src="img/tumor.gif">
 </p>
+
+
+| Objectives | Description                                                 |
+|------------|-------------------------------------------------------------|
+| 1          | Predict survival time in days                               |
+| 2 a        | Predict lesion relapse (for all patients)                   |
+| 2 b        | Predict lesion relapse (only patients who had radiosurgery) |
+
+
 
 
 ## Data
@@ -56,14 +94,23 @@ There are 3 groups of files with structured and unstructured data. You have all 
 - The **MRI scans** are in formats such as nifti and DICOM.
 
 
-You can find the main data source here: [MOLAB Brain Metastasis Dataset](https://molab.es/datasets-brain-metastasis-1/?type=metasrd).
+You can find the main dataset here: [MOLAB Brain Metastasis Dataset](https://molab.es/datasets-brain-metastasis-1/?type=metasrd).
+
+### Data analysis
+
+We have invested most of our time in this phase. A whole lot of plots, graphs and code were needed to understand the relationship between our variables and know what we could predict with the most certainty.
+
+<p align="center">
+  <img width="420" height="280" src="img/data-analysis.png">
+</p>
+
+
 
 ## Conclusions
-We divide our work into:
-- Predicting patient relapse - Obtain predictive variables to estimate the recurrence.
-- Survival - An estimate of the number of days (and possible cause) a patient has left.
 
-// TODO
+1. Our model excelled at predicting survival days, but more data can improve results. Relapse predictions were less accurate due to higher variance, especially in multiclass classifications.
+2. The performance varied by task, highlighting the need for testing multiple models to compare outcomes.
+3. Despite data limitations, the results are promising, with a 75% accuracy in predicting survival time for 75 patients, though better data and advanced methods are needed for relapse predictions.
 
 
 
@@ -83,10 +130,12 @@ We divide our work into:
 </p>
 
 ## Acknowledgements 
-Thanks to all the SaturdaysAI team for pushing us during these 16 weeks (from February 2024 to June 2024). Thanks also to [MOLAB](https://molab.es/) (Mathematical Oncology Laboratory) for the fantastic work they are doing.
+Thanks to all the [SaturdaysAI](https://saturdays.ai/) team for pushing us during these 16 weeks (from February 2024 to June 2024). Thanks also to [MOLAB](https://molab.es/) (Mathematical Oncology Laboratory) for the fantastic work they are doing.
+
+We achieve our goal with teamwork and a lot of help from our [coordinator](http://linkedin.com/in/sofía-gonzález-arias), instructors, mentors, the [organizers](https://asociacionbigdata.es/) of SaturdaysAI Asturias, our [hosts](https://www.uniovi.es/), and, again, the wonderful people at [MOLAB](https://molab.es/).
 
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
-Copyright (c) 2024 Adrián.
+Copyright (c) 2024
 
