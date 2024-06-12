@@ -42,7 +42,9 @@ README
 ```
 
 ### Code
-If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is actually separated into two different files: objective 1 and objective 2. Both are `.ipynb` files. We also upload the full code. We recommend you to open it via colab or locally (with Anaconda).
+If you want to have a look at the code visit the [/code](https://github.com/aguadotzn/SaturdaysAI/blob/master/code/SaturdaysAI_Asturias_Group2_Code.ipynb) folder. It is actually separated into two different files: objective 1  (`SaturdaysAI_Asturias_Group2_Objective1.ipynb`) and objective 2 (`SaturdaysAI_Asturias_Group2_Objective2.ipynb`). We also upload the full code (`SaturdaysAI_Asturias_Group2_FullCode.ipynb`). We recommend you to open it via colab or locally (with Anaconda).
+
+> ⚠️ We highly recommend you to open directly the code in colab. Direct access [here](https://colab.research.google.com/drive/1O5CIYXvTeAc7FVzzDLyjs4Bz-mFI4KfI?usp=sharing).
 
 
 ## Team
@@ -118,6 +120,7 @@ We have invested most of our time in this phase. A whole lot of plots, graphs an
 ## Technologies
   * [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
   * [Google Colab](https://colab.google/)
+  * [Jupyter Notebooks](https://jupyter.org/)
   
 * Libraries
   * [Pandas](https://pandas.pydata.org/)
@@ -125,6 +128,8 @@ We have invested most of our time in this phase. A whole lot of plots, graphs an
   * [Matplotlib](https://matplotlib.org/)
   * [NumPy](https://numpy.org/)
   * [Scipy](https://scipy.org/)
+  * [Scikit learn](https://scikit-learn.org/)
+  * [Tensor flow](https://www.tensorflow.org/)
 
 <p align="center">
   <img width="370" height="190" src="img/tools.png">
@@ -138,5 +143,5 @@ We achieve our goal with teamwork and a lot of help from our [coordinator](http:
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
-Copyright (c) 2024
+Copyright (c) 2024.
 
