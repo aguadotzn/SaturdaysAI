@@ -36,6 +36,7 @@ SaturdaysAI project
 │   │   OpenBTAI_RADIOMICS
 └───📁 img // Only for README purposes
 └───📁 presentation // PPT
+│   │   SaturdaysAI-Asturias-Group2-Presentation.ppt
 │   │   SaturdaysAI-Asturias-Group2-Presentation.pdf
 LICENSE
 README
